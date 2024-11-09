@@ -10,7 +10,7 @@ public class MemoryContext
 
     public MemoryContext() 
     {
-
+        Data();
     }
 
     private void Data()
