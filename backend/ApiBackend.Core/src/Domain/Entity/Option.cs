@@ -6,5 +6,5 @@ public class Option : IEntity
     public string? Name { get; set; }
     public int Votes { get; set; }
     public Guid PollId { get; set; }
-    public Poll? Poll { get; set; }
+    public Poll? Poll { get; set;}
 }
