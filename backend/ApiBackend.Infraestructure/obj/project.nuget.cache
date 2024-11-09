@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Asj5sVZ+CkzrrsWemoZ51tbu+mEF5GfI7S2J+3qdnCjr9O1QJr3QkNSWhllxjwJrsv4KRtAYa0gswOFqCAcAPA==",
+  "dgSpecHash": "lcZgTwm03rU6Clew8g2zURy8Lo6osNRiMz7G5xAU8HJjmdCX4v1mQyzuHbEF6MZUwg4u95ggs2sSEIS/hfcdPg==",
   "success": true,
   "projectFilePath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/axel/.nuget/packages/dapper/2.1.35/dapper.2.1.35.nupkg.sha512",
+    "/home/axel/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/npgsql/8.0.5/npgsql.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

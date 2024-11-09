@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "7df+eQqGtdmS+SAba6aEb7jiTOhxvHoQIwiN2wUPSUS5/iz/c9BqlPXaM8LfAPMBpvF2JUxuy/rQsISBVOuJvg==",
+  "dgSpecHash": "7AwujTddvIoyworByJWhYaaIA2edF9h7nfOKzHqUbazwxe3J5ZWVRjAjLSkr2+oqZisqV0GBK/LrLA2taKKrJg==",
   "success": true,
   "projectFilePath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/axel/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.configuration.binder/8.0.0/microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.options.configurationextensions/8.0.0/microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "/home/axel/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
