@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "ApiBackend.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ApiBackend.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiBackend.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiBackend.Core/1.0.0": {
+      "type": "project",
+      "path": "../ApiBackend.Core/ApiBackend.Core.csproj",
+      "msbuildProject": "../ApiBackend.Core/ApiBackend.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "ApiBackend.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/axel/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj",
+      "projectName": "ApiBackend.Infraestructure",
+      "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj",
+      "packagesPath": "/home/axel/.nuget/packages/",
+      "outputPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/axel/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj": {
+              "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

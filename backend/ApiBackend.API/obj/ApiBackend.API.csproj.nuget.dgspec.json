@@ -1,0 +1,191 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.API/ApiBackend.API.csproj": {}
+  },
+  "projects": {
+    "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.API/ApiBackend.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.API/ApiBackend.API.csproj",
+        "projectName": "ApiBackend.API",
+        "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.API/ApiBackend.API.csproj",
+        "packagesPath": "/home/axel/.nuget/packages/",
+        "outputPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/axel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj": {
+                "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj"
+              },
+              "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj": {
+                "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj",
+        "projectName": "ApiBackend.Core",
+        "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj",
+        "packagesPath": "/home/axel/.nuget/packages/",
+        "outputPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/axel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj",
+        "projectName": "ApiBackend.Infraestructure",
+        "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/ApiBackend.Infraestructure.csproj",
+        "packagesPath": "/home/axel/.nuget/packages/",
+        "outputPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Infraestructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/axel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj": {
+                "projectPath": "/home/axel/Documents/JALA-USB/API-REST/Dev-test/DevTest2024/backend/ApiBackend.Core/ApiBackend.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
