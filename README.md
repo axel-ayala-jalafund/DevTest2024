@@ -1,3 +1,38 @@
+# AXEL JAVIER AYALA SILES
+
+## Backend
+For this dev-test I used for backend C# and for fronted I used React.
+
+I can say that Back API was implemented until 90%, I just needed more time but to run you need to go:
+```
+cd backend
+```
+Then you need to run:
+```
+docker-compose build
+```
+Then:
+```
+docker-compose up -d
+```
+And finally
+```
+dotnet run --project ApiBackend.API
+```
+If you want to run with memory data you need to set into true value `AddInfraestructureLayer`
+![alt text](image.png)
+Y you put false, by default is false, so will initialize with DB
+
+## Frontend
+For frontend you need to go:
+```
+cd Frontend
+```
+And then run the command:
+```
+npm run dev
+```
+
 # Dev Test Challenge 2024
 **Preparation guidelines**
  
